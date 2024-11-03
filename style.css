@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit",sans-serif;
+}
+
+.mainImage{
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.olho{
+    margin: -150px -45px 120px 100px ;   
+    opacity: 0;
+}
+
+.olho:hover{
+    opacity: 1;
+}
+
+
+.cartao{
+    margin-top: 12vh;
+    width: 295px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px 10px 10px 22px;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    font-weight: 500;
+}
+
+.titulo:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.text{
+    color:  hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 170px 150px;
+    margin: 20px 0 20px 0;
+}
+
+.infoPrisma{
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+
+.prisma, .clock{
+    margin: 0 4px -4px 0;
+}
+
+.infoHoras{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+}
+
+.linha{
+    border-bottom: 1px solid hsl(215, 51%, 70% ,0.2);
+    margin: 0 10px 13px 0 ;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 50px 150px ;
+}
+
+.autor{
+    font-size: 13px;
+    color: hsl(215, 51%, 70%);
+    margin: 5px 0 -10px 0;
+}
+
+strong{
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+}
+
+strong:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.avatar{
+    width: 25px;
+    height: auto;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin: 0 0 10px 10px;
+}
